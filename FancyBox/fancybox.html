@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Challenge</title>
+	<meta charset="UTF-8" />
+	<meta description="This is our first CSS Challenge." />
+	<link rel="stylesheet" href="css/CSS_Challenge.css" />
+	<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
+
+	<!-- <link rel="stylesheet" href="../fancyapps-fancyBox-0ffc358/source/jquery.fancybox.css" type="text/css" media="screen" /> -->
+
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> 
+	<script type="text/javascript" src="../fancyapps-fancyBox-0ffc358/source/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="../fancyapps-fancyBox-0ffc358/source/jquery.fancybox.pack.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script> -->
+
+	<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+	$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+
+
+
+</head>
+
+<body>
+	<header>
+		<div class="header_content">	
+			<img src="img/logo.png" alt="CSS_Challenge_logo" id="logo">
+
+			<p id="italic">Welcome to your first full web page</br>
+				layout CSS Challenge.</p>
+		
+
+
+			<nav>
+				<ul>
+					<li class="navmenu" id="navleft"><a class="various fancybox.iframe" href="http://www.youtube.com/embed/abFO7WkpbNE?list=PL84BE0210A43FAC15">HOME</a></li>
+					<li class="navmenu"><a href=""></a>ABOUT</li>
+					<li class="navmenu"><a href=""></a>SERVICES</li>
+					<li class="navmenu"><a href=""></a>BLOG</li>
+					<li class="navmenu"><a href=""></a>PROJECTS</li>
+					<li class="navmenu" id="navright"><a href=""></a>CONTACTS</li>
+				</ul>
+			</nav>
+		</div> 
+	</header>
+
+	<div class="wrapper clearfix">
+
+			<div class="bigPicture">
+				<p id="favorite">Your favorite CSS <br>
+				 attributes altogether</p>
+			</div>
+
+			<div class="threecolumns">
+				<div class="threesquare">
+					<div class="leftalign">
+							<img src="img/banner-img01.jpg" alt="Planning_image"> <br>
+							<p><a href="#" class="button">Details</a></p>
+					</div>
+					<div class="rightalign">
+							<h1>Planning</h1>
+							<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+					</div>
+				</div>
+
+				<div class="threesquare">
+					<div class="leftalign">
+							<img src="img/banner-img02.jpg" alt="Coding_image"> <br>
+							<p><a href="#" class="button">Details</a></p>
+					</div>
+					<div class="rightalign">
+							<h1>Coding</h1>
+							<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+					</div>
+				</div>
+
+				<div class="threesquare">
+					<div class="leftalign">
+							<img src="img/banner-img03.jpg" alt="Optimize_image"> <br>
+							<p><a href="#" class="button">Details</a></p>
+					</div>
+					<div class="rightalign">
+							<h1>Optimize</h1>
+							<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+					</div>
+				</div>
+			</div> 
+
+			<aside>
+				<h1 class="asideheader">Highlights</h1>
+				<h3 class="floath3">PRAESENT VESTIBULUM MOLESTIE LACUS</h3>
+				<div class="imagebullet"><p>14<br>jul</p></div>
+					<section>
+						<p class="greytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
+						<em><a href="">Read Details -></a></em>
+					<br>
+					<br></section>
+				<h3 class="floath3">PRAESENT VESTIBULUM MOLESTIE LACUS</h3>
+				<div class="imagebullet"><p>14<br>apr</p></div>
+					<section>
+						<p class="greytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
+						<em><a href="">Read Details -></a></em>
+					<br>
+					<br></section>	
+				<h3 class="floath3">PRAESENT VESTIBULUM MOLESTIE LACUS</h3>
+				<div class="imagebullet"><p>14<br>mar</p></div>
+					<section>
+					<p class="greytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
+					<em><a href="">Read Details -></a></em>
+					<br>
+					<br>
+					</section>	
+			</aside>
+
+
+			<div class="twocolumns">
+				<blockquote><img src="img/home-img.jpg" alt="Home" align="left"/> 
+					<div class="pictext">
+					<h1>Creative Design Ideas</h1>
+					<h3>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram</h3>
+					<p class="greytext">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+				</div>
+				</blockquote>
+			</div>
+			<br>
+
+			
+			<div class="onecolumn" id="clearleft">
+				<h1>Popular Posts</h1>
+					<em class="bullet"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</em>
+					<p class="greytext">Integer gravida tellus non erat molestie a hendrerit erat dictum...</p>
+					<p>By: <a href="*" class="Admin"> Admin</a> </p>
+					<br/>
+					<em class="bullet"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</em>
+					<p class="greytext">Integer gravida tellus non erat molestie a hendrerit erat dictum...</p>
+					<p>By: <a href="*" class="Admin"> Admin</a> </p>
+			</div>
+
+			<div class="onecolumn">
+				<h1>New Perspectives in Design</h1>
+				<em><a href="*">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></em>
+				<p class="greytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor fringilla est, nec pulvinar urna varius in. Donec sed orci quis tellus malesuada lacinia. Ut condimentum vestibulum mauris in aliquam. Fusce vestibulum mollis nisl, eget consequat diam commodo non. </p>
+				<p><a href="#" class="buttontwo">Details</a></p>
+			</div>
+
+	</div> <!--Closing div wrapper  --
+
+
+
+	<footer>
+		<em>CSS Challenge by <a href="">Adam Scott</a></em>
+	</footer>
+	
+</body>
+
+</html>
